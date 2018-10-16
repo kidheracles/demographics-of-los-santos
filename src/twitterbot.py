@@ -10,14 +10,14 @@ my_file=open('../data/processed/working-sentences.txt','r', encoding='utf-8')
 file_lines=my_file.readlines()
 my_file.close()
 
-# Tweet a line every 15 minutes
+# Tweet a line every 60 minutes
 def tweet():
     for line in file_lines:
         try:
              print(line)
              if line != '\n':
                  api.update_status(line)
-                 sleep(90)
+                 sleep(3600)
              else:
                 pass
         except tweepy.TweepError as e:
