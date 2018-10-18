@@ -1,0 +1,137 @@
+Type,Variable,Label,Case Selection
+H,YEAR,Census year,--
+H,DATANUM,Data set number,--
+H,SERIAL,Household serial number,--
+H,HHWT,Household weight,--
+H,STATEFIP,State (FIPS code),details
+H,COUNTYFIPS,County (FIPS code),--
+H,CITY,City,--
+H,PUMA,Public Use Microdata Area,--
+H,HOMELAND,"American Indian, Alaska Native, or Native Hawaiian homeland area",--
+H,GQ,Group quarters status,--
+H,GQTYPE (general),Group quarters type [general version],--
+H,GQTYPED (detailed),Group quarters type [detailed version],--
+H,FARM,Farm status,--
+H,OWNERSHP (general),Ownership of dwelling (tenure) [general version],--
+H,OWNERSHPD (detailed),Ownership of dwelling (tenure) [detailed version],--
+H,MORTGAGE,Mortgage status,--
+H,MORTGAG2,Second mortgage status,--
+H,FARMPROD,Sales of farm products,--
+H,ACREHOUS,House acreage,--
+H,MORTAMT1,First mortgage monthly payment,--
+H,MORTAMT2,Second mortgage monthly payment,--
+H,RENT,Monthly contract rent,--
+H,RENTGRS,Monthly gross rent,--
+H,RENTMEAL,Meals included in rent,--
+H,COSTELEC,Annual electricity cost,--
+H,COSTGAS,Annual gas cost,--
+H,COSTWATR,Annual water cost,--
+H,COSTFUEL,Annual home heating fuel cost,--
+H,FOODSTMP,Food stamp recipiency,--
+H,LINGISOL,Linguistic isolation,--
+H,FRIDGE,Refrigerator,--
+H,HOTWATER,Hot and cold piped water,--
+H,BEDROOMS,Number of bedrooms,--
+H,PHONE,Telephone availability,--
+H,CINETHH,Access to internet,--
+H,CILAPTOP,"Laptop, desktop, or notebook computer",--
+H,CISMRTPHN,Smartphone,--
+H,CITABLET,Tablet or other portable wireless computer,--
+H,CIOTHCOMP,Other computer equipment,--
+H,CIDATAPLN,Cellular data plan for a smartphone or other mobile device,--
+H,FUELHEAT,Home heating fuel,--
+H,VEHICLES,Vehicles available,--
+H,SSMC,Same-sex married couple,--
+H,NFAMS,Number of families in household,--
+H,NSUBFAM,Number of subfamilies in household,--
+H,NCOUPLES,Number of couples in household,--
+H,MULTGEN (general),Multigenerational household [general version],--
+H,MULTGEND (detailed),Multigenerational household [detailed version],--
+P,PERNUM,Person number in sample unit,--
+P,PERWT,Person weight,--
+P,SEX,Sex,--
+P,AGE,Age,--
+P,MARST,Marital status,--
+P,BIRTHYR,Year of birth,--
+P,MARRNO,Times married,--
+P,YRMARR,Year married,--
+P,DIVINYR,Divorced in the past year,--
+P,WIDINYR,Widowed in the past year,--
+P,RACE (general),Race [general version],--
+P,RACED (detailed),Race [detailed version],--
+P,HISPAN (general),Hispanic origin [general version],--
+P,HISPAND (detailed),Hispanic origin [detailed version],--
+P,BPL (general),Birthplace [general version],--
+P,BPLD (detailed),Birthplace [detailed version],--
+P,ANCESTR1 (general),"Ancestry, first response [general version]",--
+P,ANCESTR1D (detailed),"Ancestry, first response [detailed version]",--
+P,ANCESTR2 (general),"Ancestry, second response [general version]",--
+P,ANCESTR2D (detailed),"Ancestry, second response [detailed version]",--
+P,CITIZEN,Citizenship status,--
+P,YRNATUR,Year naturalized,--
+P,YRIMMIG,Year of immigration,--
+P,YRSUSA1,Years in the United States,--
+P,LANGUAGE (general),Language spoken [general version],--
+P,LANGUAGED (detailed),Language spoken [detailed version],--
+P,HCOVANY,Any health insurance coverage,--
+P,HINSEMP,Health insurance through employer/union,--
+P,HINSCAID,Health insurance through Medicaid,--
+P,HINSCARE,Health insurance through Medicare,--
+P,HINSVA,Health insurance through VA,--
+P,HINSIHS,Health insurance through Indian Health Services,--
+P,EDUC (general),Educational attainment [general version],--
+P,EDUCD (detailed),Educational attainment [detailed version],--
+P,GRADEATT (general),Grade level attending [general version],--
+P,GRADEATTD (detailed),Grade level attending [detailed version],--
+P,SCHLTYPE,Public or private school,--
+P,DEGFIELD (general),Field of degree [general version],--
+P,DEGFIELDD (detailed),Field of degree [detailed version],--
+P,DEGFIELD2 (general),Field of degree (2) [general version],--
+P,DEGFIELD2D (detailed),Field of degree (2) [detailed version],--
+P,EMPSTAT (general),Employment status [general version],--
+P,EMPSTATD (detailed),Employment status [detailed version],--
+P,LABFORCE,Labor force status,--
+P,OCC,Occupation,--
+P,IND,Industry,--
+P,CLASSWKR (general),Class of worker [general version],--
+P,CLASSWKRD (detailed),Class of worker [detailed version],--
+P,WKSWORK2,"Weeks worked last year, intervalled",--
+P,UHRSWORK,Usual hours worked per week,--
+P,LOOKING,Looking for work,--
+P,AVAILBLE,Available for work,--
+P,INCTOT,Total personal income,--
+P,FTOTINC,Total family income,--
+P,INCWAGE,Wage and salary income,--
+P,INCBUS00,"Business and farm income, 2000",--
+P,INCSS,Social Security income,--
+P,INCWELFR,Welfare (public assistance) income,--
+P,INCINVST,"Interest, dividend, and rental income",--
+P,INCRETIR,Retirement income,--
+P,INCSUPP,Supplementary Security Income,--
+P,INCOTHER,Other income,--
+P,INCEARN,Total personal earned income,--
+P,POVERTY,Poverty status,--
+P,MIGRATE1 (general),"Migration status, 1 year [general version]",--
+P,MIGRATE1D (detailed),"Migration status, 1 year [detailed version]",--
+P,MIGPLAC1,State or country of residence 1 year ago,--
+P,MIGPUMA1,PUMA of residence 1 year ago,--
+P,MOVEDIN,When occupant moved into residence,--
+P,VETSTAT (general),Veteran status [general version],--
+P,VETSTATD (detailed),Veteran status [detailed version],--
+P,VET01LTR,"Veteran, served 2001 or later",--
+P,VET90X01,"Veteran, served 1990-2001",--
+P,VET75X90,"Veteran, served May 1975 to July 1990",--
+P,VETVIETN,"Veteran, served during Vietnam era",--
+P,VET55X64,"Veteran, served 1955 to 1964",--
+P,VETKOREA,"Veteran, served during Korean conflict era",--
+P,VET47X50,"Veteran, served 1947-1950",--
+P,VETWWII,"Veteran, served during WWII era",--
+P,VETOTHER,Veteran of other period,--
+P,PWSTATE2,Place of work: state,--
+P,PWPUMA00,"Place of work: PUMA, 2000 onward",--
+P,TRANWORK,Means of transportation to work,--
+P,CARPOOL,Carpooling,--
+P,RIDERS,Vehicle occupancy,--
+P,TRANTIME,Travel time to work,--
+P,DEPARTS,Time of departure for work,--
+P,ARRIVES,Time of arrival at work,--
