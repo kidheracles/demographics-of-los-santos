@@ -18,12 +18,6 @@ import pandas as pd # for data analysis
 import gzip         # to work with zip files 
 import spacy        # for NLP (dealing with occupations)
 
-# this changes the settings in your Jupyter Notebook so it displays multiple outputs
-from IPython.core.interactiveshell import InteractiveShell
-
-InteractiveShell.ast_node_interactivity = "all"
-
-
 # In[2]:
 
 

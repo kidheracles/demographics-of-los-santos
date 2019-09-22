@@ -1,17 +1,30 @@
-# Los Santos Obituaries
+# Humans of Los Santos 
 
-Repository for a REST service for Twitch chat bots for random obituaries of downed locals
+Repository for a REST service for Twitch chat bots and Twitch extension for random biographies of downed locals
 
 To use, create a new command for your Twitch chat bot of choice.
 
+Setup:
+Install Humans of Los Santos Twitch extension
+Adding the panel is optional
+
+Configure:
+Styles
+
+Attributes:
+Age: young|old
+Race: white|black|hispanic
+Gender: male|female
+
+
 Usage:
-!rip <young|old> <white|black|hispanic> <female|male>
+!rip attribute1 [attribute2 [attribute3]]
 
 For Nightbot:
-$(urlfetch CUSTOM_API_URL_HERE?age=$(1)&race=$(2)&gender=$(3))
+$(urlfetch CUSTOM_API_URL_HERE?style=obituary&attributes=$(1),$(2),$(3))
 For StreamLabs Chatbot:
-$readapi(CUSTOM_API_URL_HERE?age=$arg1&race=$arg2&gender=$arg3)
+$readapi(CUSTOM_API_URL_HERE?style=obituary&attributes=$(1),$(2),$(3))
 For Deepbot:
-@customapi@[CUSTOM_API_URL_HERE?age=@target@[1]&race=@target@[2]&gender=@target@[3]]
+@customapi@[CUSTOM_API_URL_HERE?style=obituary&attributes=@target@[1],@target@[2],@target@[3]]
 
 Based on @allCalifornians Twitter bot
